@@ -1,0 +1,45 @@
+.shape{
+    /*width: 300px;
+    height: 300px;*/
+    margin: auto;
+    background-color: cadetblue;
+    border: solid 10px red;
+    border-radius: 10px;
+    /*overflow: auto; /* o scroll*/
+
+}
+.shape__cubo{
+    margin: auto;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+.shape__cubo--verde{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.shape__cubo--violeta{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+.shape__circulo{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 50%;
+}
+.shape__cubo--miniatura{
+    margin: 50px;
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+}
+.tituloDelMaindelHome{
+    font-style: italic;
+    font-size: 200%;
+}
+/*comentar*/

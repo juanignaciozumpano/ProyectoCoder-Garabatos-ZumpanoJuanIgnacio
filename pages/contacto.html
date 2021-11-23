@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/Fotos para la Pagina Garabatos/garabatos.jpg" size="any">
     <title>Contacto Garabatos</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
@@ -20,7 +22,7 @@
                     <a href="../pages/nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a href="./pages/contacto.html">Contacto</a>
+                    <a href="./contacto.html">Contacto</a>
                 </li>
                 <li>
                     <a href="../pages/carrito.html">Carrito</a>
@@ -28,10 +30,37 @@
             </ul>
         </nav> 
     </header>
-    <main>
+    <main class="shape">
         
         <h1>Este es el contacto</h1>
-
+    <div>
+        <form action="">
+            <h3>Contactame</h3>
+            <label for="Nombre">Nombre</label>
+            <input type="text" value="" placeholder="Agrega tu nombre">
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo">
+            <input type="submit" value="Hola soy un submit">
+        </form>
+        <form action="">
+            <span>Hombre</span>
+            <input type="radio" name="genero" value="Hombre">
+            <span>Mujer</span>
+            <input type="radio" name="genero" value="Mujer">
+        </form>
+        <form action="">
+        <fieldset>
+            <legend>Escriba su mensaje</legend>
+            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        </form>
+        <form action="">
+            <span>Aceptas terminos y condiciones</span>
+            <input type="checkbox" name="Aceptar" value="1">
+        </form>
+    </div>
     </main>
     <footer></footer>
 </body>

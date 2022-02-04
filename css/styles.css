@@ -4,6 +4,7 @@ header {
 }
 header nav ul {
     top: 20px; 
+    text-align: right; 
 }
 header nav ul li {
     display: inline; /*block*/ 
@@ -11,21 +12,16 @@ header nav ul li {
 }
 header nav ul li a {
     color: black;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+main{
+    background-color: rgb(255, 255, 255);
+}
 
 
 footer{
@@ -39,22 +35,32 @@ footer nav ul li {
 }
 footer nav ul li a {
     color: black;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 25px;
+    text-decoration: none;
 }
 
 
 
-.colorTitulos {
-    color: rgb(0, 0, 0)
+
+.styleTitulos {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }     /*clase*/
 
 #tituloPrincipal {  
-    
+    font-family: 'Roboto', sans-serif;
     color: blueviolet;
+    text-align: center;
 
 }     /*ID*/ 
 
-
+.tamañoLogoHeader {
+    height: 75px;
+}
 
 
 

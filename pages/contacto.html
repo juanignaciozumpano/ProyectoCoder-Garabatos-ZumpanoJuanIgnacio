@@ -10,6 +10,8 @@
 </head>
 <body>
     <header>
+        <img src="../assets/Fotos para la Pagina Garabatos/logo garabatos sin mochila.jpg" alt="">
+
         <nav>
             <ul>
                 <li>
@@ -30,23 +32,29 @@
             </ul>
         </nav> 
     </header>
-    <main class="shape">
+
+
+
+    <main>
         
-        <h1>Este es el contacto</h1>
-    <div>
+        
+    <section>
+        <h1 class="colorTitulos">Contactanos</h1>
         <form action="">
-            <h3>Contactame</h3>
-            <label for="Nombre">Nombre</label>
-            <input type="text" value="" placeholder="Agrega tu nombre">
-            <label for="correo">Correo:</label>
-            <input type="email" name="correo">
-            <input type="submit" value="Hola soy un submit">
+            <label for="NombreUsuario">Nombre</label>
+            <input type="text" value="" placeholder="Ingresa tu nombre" id="NombreUsuario">
+            <label for="ApellidoUsuario">Apellido</label>
+            <input type="text" value="" placeholder="Ingresa tu Apellido" id="ApellidoUsuario">
+            <label for="CorreoUsuario">Correo:</label>
+            <input type="email" name="correo" placeholder="Ingresa tu correo electronico" id="CorreoUsuario">
         </form>
         <form action="">
             <span>Hombre</span>
             <input type="radio" name="genero" value="Hombre">
             <span>Mujer</span>
             <input type="radio" name="genero" value="Mujer">
+            <span>Prefiero no decirlo</span>
+            <input type="radio" name="genero" value="UndefinedGenero">
         </form>
         <form action="">
         <fieldset>
@@ -60,8 +68,34 @@
             <span>Aceptas terminos y condiciones</span>
             <input type="checkbox" name="Aceptar" value="1">
         </form>
-    </div>
+    </section>
     </main>
-    <footer></footer>
+
+
+
+    <footer>
+        <img src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt=""> <!--imagen del logo en el medio de la pag-->
+        <!--ICONOS DE REDES SOCIALES-->
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/tienda.html">Tienda</a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="../pages/carrito.html">Carrito</a>
+                </li>
+            </ul>
+        </nav> 
+    </footer>
 </body>
 </html>

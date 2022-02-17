@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../assets/Fotos para la Pagina Garabatos/garabatos.jpg" size="any">
-    <title>Contacto Garabatos</title>
+    <link rel="icon" href="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" size="any">
+    <title>Garabatos | Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img class="logoHeader" src="../assets/Fotos para la Pagina Garabatos/logo garabatos sin mochila.jpg" alt="">
-
-        <nav>
-            <ul>
+    <header class="header">
+        <img class="logoHeader" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">      
+        <nav class="header-nav">
+            <ul class="header-lista">
                 <li>
                     <a href="../index.html">Home</a>
                 </li>
@@ -27,78 +27,109 @@
                     <a href="../pages/nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="../pages/carrito.html">Carrito</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
-        </nav> 
+            <div class="profileCartHead">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="../pages/profile.html">Mi perfil</a>
+                <a i class="fa-solid fa-cart-shopping" href="../pages/carrito.html"></a>
+            </div>
+            </nav> 
     </header>
+
+
+
 
 
 
     <main>
         
-        
-    <section>
         <h1 class="styleTitulos">Contactanos</h1>
-        <form action="">
-            <label for="NombreUsuario">Nombre</label>
-            <input type="text" value="" placeholder="Ingresa tu nombre" id="NombreUsuario">
-            <label for="ApellidoUsuario">Apellido</label>
-            <input type="text" value="" placeholder="Ingresa tu Apellido" id="ApellidoUsuario">
-            <label for="CorreoUsuario">Correo:</label>
-            <input type="email" name="correo" placeholder="Ingresa tu correo electronico" id="CorreoUsuario">
-        </form>
-        <form action="">
-            <span>Hombre</span>
-            <input type="radio" name="genero" value="Hombre">
-            <span>Mujer</span>
-            <input type="radio" name="genero" value="Mujer">
-            <span>Prefiero no decirlo</span>
-            <input type="radio" name="genero" value="UndefinedGenero">
-        </form>
-        <form action="">
-        <fieldset>
-            <legend>Escriba su mensaje</legend>
-            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-        </fieldset>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
-        </form>
-        <form action="">
-            <span>Aceptas terminos y condiciones</span>
-            <input type="checkbox" name="Aceptar" value="1">
+        
+    <section class="grid">
+
+            <div>
+                <h2>Get in touch</h2>
+                <p>garabatos@gmail.com</p>
+                <p>+544353535634</p>
+                <p>calle pepito entre maria y jose</p>
+            </div>
+            
+
+
+        <form class="formMensaje" action="">
+            <label for="NombreUsuario">Ingresa tu nombre completo:</label>
+            <input type="text" value="" placeholder="full name" id="NombreUsuario">
+            <label for="CorreoUsuario">Ingresa tu correo electronico:</label>
+            <input type="email" name="correo" placeholder="example@gmail.com" id="CorreoUsuario">
+            <div>
+                <legend>Escriba su mensaje</legend>
+                <textarea name="comentario" id="" cols="30" rows="10" placeholder="Type your message "> </textarea>
+            </div>
+            <input class="submitContacto" type="submit" value="Enviar">
         </form>
     </section>
     </main>
 
 
+<!--MAPA DE GOOGLE INSERTAR-->
 
-    <footer>
-        <img class="logoFooter" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt=""> <!--imagen del logo en el medio de la pag-->
+
+    
+
+    <footer class="footer"> 
         <!--ICONOS DE REDES SOCIALES-->
+        <section class="redesFooter">
+                
+                <h3>Seguinos en nuestras redes</h3>
+                <br>
+                <section>
+                    <div>
+                        <div>
+                            <a i class="fa-brands fa-instagram-square" href="https://www.instagram.com/garabatos.libreria/"></a>
+                            <h5>garabatos.libreria</h5>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-whatsapp-square"></i>
+                            <h5>numero wpp</h5>
+                        </div>
+                            <div>
+                                <i class="fa-brands fa-facebook-square"></i>
+                                <h5>garabatos_burzaco</h5>
+                            </div>
+                    </div>
+                </section>
+                
+        </section>
+            
+            <img class="logoFooter" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">
+            
+            <nav class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../pages/tienda.html">Tienda</a>
+                    </li>
+                    <li>
+                        <a href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="profileCartFoot">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="../pages/profile.html">Mi perfil</a>
+                </div>
+                <a i class="fa-solid fa-cart-shopping" href="../pages/carrito.html"></a>
+            </div>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../pages/tienda.html">Tienda</a>
-                </li>
-                <li>
-                    <a href="../pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="../pages/carrito.html">Carrito</a>
-                </li>
-            </ul>
-        </nav> 
+        
     </footer>
 </body>
 </html>

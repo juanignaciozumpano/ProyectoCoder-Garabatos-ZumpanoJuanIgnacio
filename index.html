@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/Fotos para la Pagina Garabatos/garabatos.jpg" size="any">
-    <title>Home Garabatos Libreria y Regaleria</title>
+    <link rel="icon" href="./assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" size="any">
+    <title>Garabatos | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img class="logoHeader" src="assets/Fotos para la Pagina Garabatos/logo garabatos sin mochila.jpg" alt="">
-
-
-
-        <nav>
-            <ul>
+    <header class="header">
+        <img class="logoHeader" src="./assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">      
+        <nav class="header-nav">
+            <ul class="header-lista">
                 <li>
                     <a href="./index.html">Home</a>
                 </li>
@@ -31,44 +29,49 @@
                 <li>
                     <a href="./pages/contacto.html">Contacto</a>
                 </li>
-                <li>
-                    <a href="./pages/carrito.html">Carrito</a>
-                </li>
             </ul>
-        </nav> 
+            <div class="profileCartHead">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="./pages/profile.html">Mi perfil</a>
+                <a i class="fa-solid fa-cart-shopping" href="./pages/carrito.html"></a>
+            </div>
+            </nav> 
     </header>
 
 
 
 
     <main>
-
-        <h1 class="styleTitulos">HOME</h1>
-        <h1 id="tituloPrincipal">HOME</h1>
-        
-
-        <section>
-            <img class="fotoSlider" src="assets/Fotos para la Pagina Garabatos/foto slider negocio.jpeg" alt=""> 
-            <img src="" alt="">   
-            <img src="" alt="">               <!--slider con fotos del negocio-->
+        <section class="sliders">
+                <button class="botonSlider"> <i class="fa-solid fa-angles-left"></i> </button>
+                <img class="fotoSlider" src="assets/Fotos para la Pagina Garabatos/foto slider negocio.jpeg" alt="">
+                <img class="fotoSlider" src="" alt="">
+                <img class="fotoSlider" src="" alt=""> 
+                <button class="botonSlider"> <i class="fa-solid fa-angles-right"></i> </button>  <!--slider con fotos del negocio-->
         </section>
-        <section>
-            <h2 class="styleTitulos">Libreria</h2>
-            <img src="" alt=""> 
-            <img src="" alt="">   
-            <img src="" alt="">               <!--slider algunos productos de libreria-->
+        <h2 class="styleTitulos">Libreria</h2>
+        <section class="sliders">
+            <button class="botonSlider"> <i class="fa-solid fa-angles-left"></i> </button>
+            <img class="fotoSlider" src="" alt=""> 
+            <img class="fotoSlider" src="" alt="">   
+            <img class="fotoSlider" src="" alt="">  
+            <button class="botonSlider"> <i class="fa-solid fa-angles-right"></i> </button>             <!--slider algunos productos de libreria-->
         </section>
-        <section>
-            <h2 class="styleTitulos">Jugueteria</h2>
-            <img src="" alt=""> 
-            <img src="" alt="">   
-            <img src="" alt="">               <!--slider algunos productos de jugueteria-->
+        <h2 class="styleTitulos">Jugueteria</h2>
+        <section class="sliders">
+            <button class="botonSlider"> <i class="fa-solid fa-angles-left"></i> </button>
+            <img class="fotoSlider" src="" alt=""> 
+            <img class="fotoSlider" src="" alt="">   
+            <img class="fotoSlider" src="" alt="">  
+            <button class="botonSlider"> <i class="fa-solid fa-angles-right"></i> </button>              <!--slider algunos productos de jugueteria-->
         </section>
-        <section>
-            <h2 class="styleTitulos">Populares</h2>
-            <img src="" alt=""> 
-            <img src="" alt="">   
-            <img src="" alt="">               <!--slider CON LOS PRODUCTOS MAS POPULARES-->
+        <h2 class="styleTitulos">Populares</h2>
+        <section class="sliders">
+            <button class="botonSlider"> <i class="fa-solid fa-angles-left"></i> </button>
+            <img class="fotoSlider" src="" alt=""> 
+            <img class="fotoSlider" src="" alt="">   
+            <img class="fotoSlider" src="" alt="">  
+            <button class="botonSlider"> <i class="fa-solid fa-angles-right"></i> </button>                 <!--slider CON LOS PRODUCTOS MAS POPULARES-->
         </section>
 
 
@@ -94,30 +97,56 @@
 
 
 
-    <footer>
-
-        <img class="logoFooter" src="assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt=""> <!--imagen del logo en el medio de la pag-->
+    <footer class="footer"> 
         <!--ICONOS DE REDES SOCIALES-->
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./pages/tienda.html">Tienda</a>
-                </li>
-                <li>
-                    <a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="./pages/carrito.html">Carrito</a>
-                </li>
-            </ul>
-        </nav>  
+        <section class="redesFooter">
+                
+                <h3>Seguinos en nuestras redes</h3>
+                <br>
+                <section>
+                    <div>
+                        <div>
+                            <a i class="fa-brands fa-instagram-square" href="https://www.instagram.com/garabatos.libreria/"></a>
+                            <h5>garabatos.libreria</h5>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-whatsapp-square"></i>
+                            <h5>numero wpp</h5>
+                        </div>
+                            <div>
+                                <i class="fa-brands fa-facebook-square"></i>
+                                <h5>garabatos_burzaco</h5>
+                            </div>
+                    </div>
+                </section>
+                
+        </section>
+            
+            <img class="logoFooter" src="assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">
+            
+            <nav class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./pages/tienda.html">Tienda</a>
+                    </li>
+                    <li>
+                        <a href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="profileCartFoot">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="./pages/profile.html">Mi perfil</a>
+                </div>
+                <a i class="fa-solid fa-cart-shopping" href="./pages/carrito.html"></a>
+            </div>
     </footer>
 </body>
 </html>

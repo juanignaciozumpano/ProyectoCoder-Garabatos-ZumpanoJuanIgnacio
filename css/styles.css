@@ -1,118 +1,202 @@
 *{
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
 }
-
 body{
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
 }
 
-
-header {
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(241, 193, 229);
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0rem 6rem;
+    border-bottom: 1px solid rgb(242, 184, 216);
     position: sticky;
-    width: 100%;
-    top: 0px;
+    top: 0;
 }
-header nav ul {
-    top: 20px;
-    text-align: right; 
+.header-nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
 }
-header nav ul li {
-    display: inline; /*block*/ 
-
-    
+.header-lista li{
+    display: inline-block;
+    padding: 0rem 2.5rem;
+    list-style-type: none;
 }
-header nav ul li a {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-decoration: none;
-}
-
-
-main{
-    background-color: rgb(255, 255, 255);
-    
-}
-
-
-footer{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(241, 193, 229);
-}
-footer nav ul {
-    top: 20px;
-}
-footer nav ul li {
-    display:block; 
-}
-footer nav ul li a {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 25px;
-    text-decoration: none;
-}
-
-
-
-
-.styleTitulos {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}     /*clase*/
-
-#tituloPrincipal {  
-    font-family: 'Roboto', sans-serif;
-    color: blueviolet;
-    text-align: center;
-}     /*ID*/ 
 
 .logoHeader {
-    height: 75px;
-    position: relative;
-    top: 15px;
-    left: 50px;
+    width: 10%;
+    height: 10%;
+}
+.profileCartHead{
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
 }
 
-.logoFooter{
-    margin-left: 760px;
-    height: 300px;
-    position: relative;
-    top: 100px;
-}
 
+
+/*INDEX HOME*/
+.sliders{
+    display: flex;
+}
 .fotoSlider{
-    height: 900px;
-    width: 1903px;
-    margin-right: 0;
+    height: 800px;
+    width: 1700px;
+}
+.botonSlider{
+    outline: none;
+    border:none;
+    padding: 4rem;
+    background-color: white;
+    font-size: 50px;
 }
 
 
-#padre{
-    background-color: rgb(35, 67, 95);
-    height: 400px;
-    width: 100%;
+/*general*/
+.styleTitulos {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: 4rem;
+}  
+
+/*CONTACTO*/
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    background-color: rgb(242, 184, 216);
+    margin-bottom: 5rem;
+}
+.formMensaje{
+    display: flex;
+    flex-direction: column;
+}
+.submitContacto{
+    outline: none;
+    border:none;
+    margin-top: 1rem;
+    width: 15%;
+    height: 10%;
+    border-radius: 15px;
 }
 
-#hijo{
-    background-color:blueviolet;
-    height: 100px;                                                      /*!!porcentaje es Absoluto y px es relativo!!!*/
-    width: 50%;
+
+
+
+/*NOSOTROS*/
+.roma{
+    display: flex;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.roma div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgStaff{
+    display: flex;
+    padding: 2rem;
+    width: 65%;
+}
+.conoceMas{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 184, 216);
+    padding-bottom: 10rem;
+}
+.botonConoceMas{
+    padding-top: 2rem;
+    outline: none;
+    border:none;
+    background-color: white;
+    font-size: 50px;
 }
 
-/*nav ul {
-    position: fixed; /*absolute, sticky, top, bottom,etcs
-    top: 20px;
-    background-color: burlywood;
+
+
+
+
+
+
+.footer{
+    background-color: rgb(242, 184, 216);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem; 
 }
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.footer-nav li{
+    list-style-type: none;
+    padding: 0.5rem ;
+}
+.logoFooter{
+    height: 300px;
+    border-radius:500px;
+}
+.redesFooter{
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+}
+.redesFooter div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.redesFooter section div div{
+    display: flex;
+    flex-direction: row;
+}
+.profileCartFoot{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+.profileCartFoot div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+
+
+
+
+/*!!porcentaje es Absoluto y px es relativo!!!*/
+
+
+
 
 /*comentar*/

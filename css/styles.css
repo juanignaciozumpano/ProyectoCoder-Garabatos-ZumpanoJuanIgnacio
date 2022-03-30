@@ -14,6 +14,7 @@ a{
     text-decoration: none;
 }
 
+/*header*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -35,7 +36,6 @@ a{
     padding: 0rem 2.5rem;
     list-style-type: none;
 }
-
 .logoHeader {
     width: 10%;
     height: 10%;
@@ -84,12 +84,14 @@ a{
     grid-template-rows: 500px;
     background-color: rgb(242, 184, 216);
     margin-bottom: 5rem;
+    justify-items: center;
 }
-.formMensaje{
+.formstyle{
     display: flex;
     flex-direction: column;
+    width: 30rem;
 }
-.submitContacto{
+.submitContacto {
     outline: none;
     border:none;
     margin-top: 1rem;
@@ -97,6 +99,14 @@ a{
     height: 10%;
     border-radius: 15px;
 }
+.mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding-bottom: 50px;
+}
+
 
 
 
@@ -142,7 +152,7 @@ a{
 
 
 
-
+/*footer*/
 .footer{
     background-color: rgb(242, 184, 216);
     display: flex;

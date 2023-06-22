@@ -1,2 +1,2 @@
 # ProyectoCoder-Garabatos-ZumpanoJuanIgnacio
-diseño pagina web-html-css
+maquetado y diseño pagina web-html-css

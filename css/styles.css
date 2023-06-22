@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 body{
     background-color: white;
@@ -13,8 +15,29 @@ a{
     font-weight: 600;
     text-decoration: none;
 }
+h4 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4rem;
+}
 
-/*header*/
+/*--GENERAL--*/
+.styleTitulos {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: 4rem;
+}  
+
+
+
+/*HEADER*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -24,6 +47,7 @@ a{
     border-bottom: 1px solid rgb(242, 184, 216);
     position: sticky;
     top: 0;
+    width: 100vw;
 }
 .header-nav{
     display: flex;
@@ -47,35 +71,87 @@ a{
 }
 
 
+/*FOOTER*/
+.footer{
+    width: 100vw;
+    background-color: rgb(242, 184, 216);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem; 
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.footer-nav li{
+    list-style-type: none;
+    padding: 0.5rem ;
+}
+.logoFooter{
+    height: 300px;
+    border-radius:500px;
+}
+.redesFooter{
+    display: flex;
+    flex-direction:column;
+    padding: 1rem;
+}
+.redesFooter div{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.profileCartFoot{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+.profileCartFoot div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
 
-/*INDEX HOME*/
+
+
+
+
+
+
+
+
+/*--INDEX HOME--*/
 .sliders{
     display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    background-color:blanchedalmond;
+    margin-bottom: 4rem;
 }
 .fotoSlider{
-    height: 800px;
-    width: 1700px;
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 30%;
 }
 .botonSlider{
+    display: flex;
     outline: none;
     border:none;
     padding: 4rem;
     background-color: white;
-    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
 }
 
 
-/*general*/
-.styleTitulos {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    margin-top: 4rem;
-}  
+
+
 
 /*CONTACTO*/
 .grid{
@@ -146,58 +222,18 @@ a{
     background-color: white;
     font-size: 50px;
 }
-
-
-
-
-
-
-/*footer*/
-.footer{
-    background-color: rgb(242, 184, 216);
+iframe{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem; 
+    justify-content: center;
+    width: 50%;
+    height: 50%;
 }
-.footer-nav{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-}
-.footer-nav li{
-    list-style-type: none;
-    padding: 0.5rem ;
-}
-.logoFooter{
-    height: 300px;
-    border-radius:500px;
-}
-.redesFooter{
-    display: flex;
-    padding: 3rem;
-    flex-direction: column;
-}
-.redesFooter div{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-.redesFooter section div div{
-    display: flex;
-    flex-direction: row;
-}
-.profileCartFoot{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    gap: 1rem;
-}
-.profileCartFoot div{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
+
+
+
+
+
 
 
 

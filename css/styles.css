@@ -156,24 +156,32 @@ h4 {
 /*CONTACTO*/
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 500px;
+    grid-template-areas: 
+    "0 getintouch form";
     background-color: rgb(242, 184, 216);
     margin-bottom: 5rem;
-    justify-items: center;
+    margin: 8rem;
 }
 .formstyle{
     display: flex;
     flex-direction: column;
     width: 30rem;
 }
+input{
+    padding: 1rem;
+    align-items: center;
+}
 .submitContacto {
+    margin-left: 19rem;
     outline: none;
     border:none;
     margin-top: 1rem;
     width: 15%;
     height: 10%;
     border-radius: 15px;
+    background-color: rgb(242, 184, 216);
 }
 .mapa{
     display: flex;
@@ -182,7 +190,22 @@ h4 {
     flex-direction:column;
     padding-bottom: 50px;
 }
-
+form{
+    background-color: white;
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.25px solid grey;
+}
+#getintouch{
+    grid-area: getintouch;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: white;
+}
 
 
 

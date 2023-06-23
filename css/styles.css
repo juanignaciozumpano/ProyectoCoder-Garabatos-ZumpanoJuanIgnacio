@@ -23,6 +23,9 @@ h4 {
 }
 
 
+
+
+
 /*--GENERAL--*/
 .styleTitulos {
     display: flex;
@@ -33,7 +36,18 @@ h4 {
     justify-content: center;
     padding: 3rem;
     margin-top: 4rem;
-}  
+}
+.h{
+    width: 50%;
+    height: 2px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(242, 184, 216);
+
+}
 
 
 

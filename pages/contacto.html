@@ -6,28 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" size="any">
     <title>Garabatos | Contacto</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <img class="logoHeader" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">      
-        <nav class="header-nav">
-            <ul class="header-lista">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div class="profileCartHead">
-                    <i class="fa-solid fa-user"></i>
-                    <a href="./profile.html">Mi perfil</a>
-                <a i class="fa-solid fa-cart-shopping" href="./carrito.html"></a>
+        <img class="logoHeader" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./jugueteria.html">Jugueteria</a></li>
+                    <li><a class="dropdown-item" href="./libreria.html">Libreria</a></li>
+                    </ul>
+                </li>
+                </ul>
             </div>
-            </nav> 
+            </div>
+        </nav>
     </header>
     <main>
         <h1 class="styleTitulos">Contactanos</h1>
@@ -63,41 +78,43 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.714980663433!2d-58.366554300000004!3d-34.8131119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32b55e43ccad9%3A0x62ab9762021ca4d7!2sJoaqu%C3%ADn%20V.%20Gonz%C3%A1lez%202622%2C%20B1852BMG%20Burzaco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1648658064722!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
-
-        <footer class="footer"> 
-            <!--ICONOS DE REDES SOCIALES-->
-            <div class="redesFooter">
-                    <h3>Seguinos en nuestras redes</h3>
-                    <br>
-                        <div>
-                            <a i class="fa-brands fa-instagram-square" target="_blanc" href="https://www.instagram.com/garabatos.libreria/"></a>
-                            <h5>garabatos.libreria</h5>
-                        </div>
-                        <div>
-                            <i class="fa-brands fa-whatsapp-square"></i>
-                            <h5>1136563009</h5>
-                        </div>
-                        <div>
-                            <a i class="fa-brands fa-facebook-square" target="_blanc" href="https://www.facebook.com/garabatos_burzaco-105547964519824"></a>
-                            <h5>garabatos_burzaco</h5>
-                        </div>
-            </div>
-                <img class="logoFooter" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">
-                <nav class="footer-nav">
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./tienda.html">Tienda</a></li>
-                        <li><a href="./nosotros.html">Nosotros</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-                <div class="profileCartFoot">
+    <footer id="footer" class="footer"> 
+        <!--ICONOS DE REDES SOCIALES-->
+        <div class="redesFooter">
+                <h3>Seguinos en nuestras redes</h3>
+                <br>
                     <div>
-                        <i class="fa-solid fa-user"></i>
-                        <a href="./profile.html">Mi perfil</a>
+                        <a i class="fa-brands fa-instagram-square" target="_blanc" href="https://www.instagram.com/garabatos.libreria/"></a>
+                        <h5>garabatos.libreria</h5>
                     </div>
-                    <a i class="fa-solid fa-cart-shopping" href="./carrito.html"></a>
+                    <div>
+                        <i class="fa-brands fa-whatsapp-square"></i>
+                        <h5>1136563009</h5>
+                    </div>
+                    <div>
+                        <a i class="fa-brands fa-facebook-square" target="_blanc" href="https://www.facebook.com/garabatos_burzaco-105547964519824"></a>
+                        <h5>garabatos_burzaco</h5>
+                    </div>
+        </div>
+            <img class="logoFooter" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./libreria.html">Libreria</a></li>
+                    <li><a href="./jugueteria.html">Jugueteria</a></li>
+                </ul>
+            </nav>
+            <!--a futuro carro y perfil-->
+            <div class="profileCartFoot">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">Mi perfil</a>
                 </div>
-        </footer>
+                <a i class="fa-solid fa-cart-shopping" href="#"></a> 
+            </div>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

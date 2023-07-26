@@ -15,7 +15,7 @@
 </head>
 <body>
     <header class="header">
-        <img class="logoHeader" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">
+        <img class="logoHeader" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpg" alt="">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,19 +54,23 @@
                     <p>JV González 2622 Burzaco</p>
                 </div>
             <form action="">
-                <div class="formstyle">
-                    <label for="NombreUsuario">Ingresa tu nombre completo</label>
-                    <input type="text" value="" placeholder="full name" id="NombreUsuario">
+                <div class="mb-3">
+                    <div class="formstyle">
+                        <label for="NombreUsuario" class="form-label">Ingresa tu nombre completo</label>
+                        <input type="text" value=""  class="form-control" placeholder="full name" id="NombreUsuario">
+                    </div>
                 </div>
-                <br>
-                <div class="formstyle">
-                    <label for="CorreoUsuario">Ingresa tu correo electronico</label>
-                    <input type="email" name="correo" placeholder="example@gmail.com" id="CorreoUsuario"  required>
+                <div class="mb-3">
+                    <div class="formstyle">
+                        <label for="CorreoUsuario" class="form-label">Ingresa tu correo electronico</label>
+                        <input type="email" name="correo" class="form-control"  placeholder="example@gmail.com" id="CorreoUsuario"  required>
+                    </div>
                 </div>
-                <br>
-                <div class="formstyle">
-                    <legend>Escriba su mensaje</legend>
-                    <textarea name="comentario" id="" cols="30" rows="10"> </textarea>
+                <div class="mb-3">
+                    <div class="formstyle">
+                        <legend class="form-label">Escriba su mensaje</legend>
+                        <textarea name="comentario" class="form-control" id="" cols="30" rows="10"> </textarea>
+                    </div>
                 </div>
                 <input class="submitContacto" type="submit" value="Enviar">
             </form>
@@ -78,8 +82,9 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.714980663433!2d-58.366554300000004!3d-34.8131119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32b55e43ccad9%3A0x62ab9762021ca4d7!2sJoaqu%C3%ADn%20V.%20Gonz%C3%A1lez%202622%2C%20B1852BMG%20Burzaco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1648658064722!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
-    <footer id="footer" class="footer"> 
+    <footer id="footer"> 
         <!--ICONOS DE REDES SOCIALES-->
+        <div class="footer">
         <div class="redesFooter">
                 <h3>Seguinos en nuestras redes</h3>
                 <br>
@@ -96,14 +101,14 @@
                         <h5>garabatos_burzaco</h5>
                     </div>
         </div>
-            <img class="logoFooter" src="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" alt="">
+            <img class="logoFooter" src="assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpg" alt="">
             <nav class="footer-nav">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./libreria.html">Libreria</a></li>
-                    <li><a href="./jugueteria.html">Jugueteria</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="libreria.html">Libreria</a></li>
+                    <li><a href="jugueteria.html">Jugueteria</a></li>
                 </ul>
             </nav>
             <!--a futuro carro y perfil-->
@@ -114,6 +119,10 @@
                 </div>
                 <a i class="fa-solid fa-cart-shopping" href="#"></a> 
             </div>
+        </div>
+        <div class="derechosReservados">
+        <h6>© 2023 Zumpano Juan Ignacio. All rights reserved.</h6>
+        </div>
     </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

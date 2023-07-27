@@ -173,6 +173,7 @@ h4{
 
 
 
+
 /*CONTACTO*/
 .grid{
     display: grid;
@@ -317,6 +318,19 @@ iframe{
     margin-bottom: 4rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitCard{
+    outline: none;
+    border:none;
+    border-radius: 15px;
+    background-color: rgb(242, 184, 216);
+}
+.submitCard:hover{
+    background-color: black;
+    color: white;
 }
 
 

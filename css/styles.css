@@ -47,7 +47,7 @@ h4{
     margin-left: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: rgb(242, 184, 216);
+    background-color: rgb(240, 105, 179);
 }
 
 
@@ -96,13 +96,18 @@ h4{
 
 /*FOOTER*/
 .footer{
-    background-color: rgb(242, 184, 216);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem; 
     flex-wrap: wrap;
-}
+    padding-top: 8rem;
+    background: rgb(242,184,216);
+    background: -moz-linear-gradient(0deg, rgba(242,184,216,1) 0%, rgba(242,184,216,1) 78%, rgba(249,230,240,1) 93%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(242,184,216,1) 0%, rgba(242,184,216,1) 78%, rgba(249,230,240,1) 93%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgba(242,184,216,1) 0%, rgba(242,184,216,1) 78%, rgba(249,230,240,1) 93%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2b8d8",endColorstr="#ffffff",GradientType=1);
+    }
 .footer-nav{
     display: flex;
     flex-direction: column;
@@ -168,7 +173,30 @@ h4{
         padding-right: 0;
     }
 }
-
+#carouselExample{
+    width: 90vw;
+    margin-left: 5rem;
+}
+#carouselExample2{
+    width: 90vw;
+    margin-left: 5rem;
+}
+#carouselExample3{
+    width: 90vw;
+    margin-left: 5rem;
+}
+#carouselExample4{
+    width: 90vw;
+    margin-left: 5rem;
+}
+.populares{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 184, 216);
+}
 
 
 
@@ -178,11 +206,10 @@ h4{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-    grid-template-rows: 700px;
+    grid-template-rows: 630px;
     grid-template-areas: 
     "0 getintouch form";
     background-color: rgb(242, 184, 216); 
-    margin-bottom: 5rem;
     margin: 8rem;
     border-radius: 5%;
 }
@@ -191,6 +218,7 @@ h4{
         display: flex;
         flex-wrap: wrap;
         border-radius: 0;
+        margin-right: 0;
     }
 }
     
@@ -227,6 +255,10 @@ input{
     border-radius: 15px;
     background-color: rgb(242, 184, 216);
 }
+.submitContacto:hover{
+    background-color: black;
+    color: white;
+}
 .mapa{
     display: flex;
     align-items: center;
@@ -250,6 +282,14 @@ form{
     justify-content:space-evenly;
     color: white;
     padding-right: 1rem;
+}
+@media (max-width: 576px){
+    #getintouch{
+        height: 300px;
+        width: 50vw;
+        display:flex;
+        align-items: center;
+    }
 }
 
 
@@ -310,9 +350,6 @@ iframe{
 }
 
 /*JUGUETERIA*/
-
-
-
 /*LIBRERIA*/
 .card{
     margin-bottom: 4rem;
@@ -321,16 +358,27 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0;
 }
 .submitCard{
     outline: none;
     border:none;
     border-radius: 15px;
     background-color: rgb(242, 184, 216);
+    
 }
 .submitCard:hover{
     background-color: black;
     color: white;
+}
+.card-img-top{
+    width: 300px;
+}
+.card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

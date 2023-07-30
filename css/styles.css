@@ -266,6 +266,13 @@ input{
     flex-direction:column;
     padding-bottom: 50px;
 }
+iframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
 form{
     background-color: white;
     grid-area: form;
@@ -335,19 +342,13 @@ form{
     padding-bottom: 10rem;
 }
 .botonConoceMas{
-    padding-top: 2rem;
+    margin-top: 20rem;
     outline: none;
     border:none;
     background-color: white;
     font-size: 50px;
 }
-iframe{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
-}
+
 
 /*JUGUETERIA*/
 /*LIBRERIA*/

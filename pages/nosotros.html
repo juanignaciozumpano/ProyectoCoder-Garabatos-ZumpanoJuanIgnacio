@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" size="any">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Garabatos | Nosotros</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
@@ -46,12 +47,12 @@
     </header>
     <main>
         <div>
-            <h1 class="styleTitulos">Nosotros</h1>
+            <div data-aos="flip-left"><h1 class="styleTitulos">Nosotros</h1></div>
             <p class="parrafo">Hola!! Somos Garabatos Libreria y Jugueteria, una empresa familiar dedicada hace años a la venta de productos de libreria y de jugueteria</p>
             <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem deserunt hic, quod, ducimus maxime dignissimos nam obcaecati repellat, quia aliquam rerum. Pariatur, dolorem repellendus. Reprehenderit officiis corrupti dolores dolore est.Lorem ipsum dolor sit amet consectetur adipisicing elit. In nobis earum omnis rerum non harum, tenetur, voluptatum illo magni libero doloribus accusamus nemo labore. Labore corrupti iste esse molestias error.</p>
         </div>
         <hr class="h">
-        <h2 class="styleTitulos">Nuestro Staff</h2>
+        <div data-aos="flip-left"><h2 class="styleTitulos">Nuestro Staff</h2></div>
         <section class="roma">
             <div>
                 <img class="imgStaff" src="../assets/Fotos para la Pagina Garabatos/juanperez.png" alt="">             <!--Imagenes del negocio y de sus empleados-->
@@ -63,8 +64,8 @@
             </div>
         </section>
             <div class="conoceMas">
-                <h2>Ingresa a nuestras redes y conoce mas</h2>
-                <a class="botonConoceMas" href="#footer"><i class="fa-solid fa-angles-down"></i></a> <!--redireccion al final de la pag-->
+                <div data-aos="fade-up"data-aos-anchor-placement="top-center"><h2>Ingresa a nuestras redes y conoce mas</h2></div>
+                <div data-aos="flip-down"><a class="botonConoceMas" href="#footer"><i class="fa-solid fa-angles-down"></i></a> <!--redireccion al final de la pag--></div>
             </div>
     </main>
     <footer id="footer"> 
@@ -109,6 +110,10 @@
         <h6>© 2023 Zumpano Juan Ignacio. All rights reserved.</h6>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

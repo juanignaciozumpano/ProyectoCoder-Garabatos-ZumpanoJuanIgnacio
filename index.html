@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/Fotos para la Pagina Garabatos/logo garabatos con mochila.jpeg" size="any">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Garabatos | Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
@@ -72,7 +73,7 @@
         <br>
         <hr class="h">
         <!--slider  de libreria-->
-        <h2 class="styleTitulos">Libreria</h2>
+        <div data-aos="flip-left"><h2 class="styleTitulos">Libreria</h2></div>
         <section>
           <div id="carouselExample2" class="carousel slide">
           <div class="carousel-inner">
@@ -98,7 +99,7 @@
       </section>
       <hr class="h">
         <!--slider de jugueteria-->
-        <h2 class="styleTitulos">Jugueteria</h2>
+        <div data-aos="flip-left"><h2 class="styleTitulos">Jugueteria</h2></div>
         <section>
           <div id="carouselExample3" class="carousel slide">
           <div class="carousel-inner">
@@ -121,10 +122,10 @@
       </section>
       <hr class="h">
         <!--slider CON LOS PRODUCTOS MAS POPULARES-->
-        <h2 class="styleTitulos">Populares</h2>
+        <div data-aos="flip-left"><h2 class="styleTitulos">Populares</h2></div>
       <div class="populares">
-        <h4>Nuestro top productos de</h4>
-        <h4>venta que podrian gustarte</h4>
+        <div data-aos="flip-left"><h4>Nuestro top productos de</h4></div>
+        <div data-aos="flip-left"><h4>venta que podrian gustarte</h4></div>
         <a class="botonConoceMas"><i class="fa-solid fa-angles-down"></i></a>
       </div>
         <br>
@@ -194,6 +195,10 @@
             <h6>© 2023 Zumpano Juan Ignacio. All rights reserved.</h6>
           </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>

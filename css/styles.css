@@ -162,32 +162,15 @@ h4{
 
 /*--INDEX HOME--*/
 .carousel-item img{
-    padding-left: 5rem;
-    padding-right: 5rem;
     height: 50vw;
     margin-bottom: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
 }
 @media (max-width: 576px){
     .carousel-item img{
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0 0;
     }
-}
-#carouselExample{
-    width: 90vw;
-    margin-left: 5rem;
-}
-#carouselExample2{
-    width: 90vw;
-    margin-left: 5rem;
-}
-#carouselExample3{
-    width: 90vw;
-    margin-left: 5rem;
-}
-#carouselExample4{
-    width: 90vw;
-    margin-left: 5rem;
 }
 .populares{
     font-family: 'Roboto', sans-serif;
@@ -203,6 +186,11 @@ h4{
 
 
 /*CONTACTO*/
+.contactanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
@@ -210,28 +198,22 @@ h4{
     grid-template-areas: 
     "0 getintouch form";
     background-color: rgb(242, 184, 216); 
-    margin: 8rem;
     border-radius: 5%;
+    width: 70%;
 }
 @media (max-width: 576px){
     .grid{
         display: flex;
         flex-wrap: wrap;
         border-radius: 0;
-        margin-right: 0;
+        width: 60%;
+    }
+    .formstyle{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
     }
 }
-    
-
-    /*o podria ser
-    .grid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 0fr 1fr 1fr;
-        grid-template-areas: 
-        "0"
-        "getintouch"
-        "form";
-    }*/
 
 legend{
     font-size: medium;
@@ -239,7 +221,15 @@ legend{
 .formstyle{
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    
+}
+#form{
+    background-color: white;
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 input{
     padding: 1rem;
@@ -254,6 +244,7 @@ input{
     height: 10%;
     border-radius: 15px;
     background-color: rgb(242, 184, 216);
+    padding: 0;
 }
 .submitContacto:hover{
     background-color: black;
@@ -273,15 +264,6 @@ iframe{
     width: 50%;
     height: 50%;
 }
-form{
-    background-color: white;
-    grid-area: form;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-}
 #getintouch{
     grid-area: getintouch;
     display: flex;
@@ -289,14 +271,6 @@ form{
     justify-content:space-evenly;
     color: white;
     padding-right: 1rem;
-}
-@media (max-width: 576px){
-    #getintouch{
-        height: 300px;
-        width: 50vw;
-        display:flex;
-        align-items: center;
-    }
 }
 
 

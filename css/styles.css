@@ -194,16 +194,15 @@ h4{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-    grid-template-rows: 630px;
     grid-template-areas: 
     "0 getintouch form";
     background-color: rgb(242, 184, 216); 
     border-radius: 5%;
-    width: 70%;
 }
 @media (max-width: 576px){
     .grid{
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         border-radius: 0;
         width: 60%;
@@ -211,17 +210,14 @@ h4{
     .formstyle{
         display: flex;
         flex-direction: column;
-        width: 20rem;
     }
 }
-
 legend{
     font-size: medium;
 }
 .formstyle{
     display: flex;
     flex-direction: column;
-    
 }
 #form{
     background-color: white;
@@ -236,15 +232,11 @@ input{
     align-items: center;
 }
 .submitContacto {
-    margin-left: 19rem;
+    margin-top: 1rem;
     outline: none;
     border:none;
-    margin-top: 1rem;
-    width: 15%;
-    height: 10%;
     border-radius: 15px;
     background-color: rgb(242, 184, 216);
-    padding: 0;
 }
 .submitContacto:hover{
     background-color: black;
@@ -271,6 +263,9 @@ iframe{
     justify-content:space-evenly;
     color: white;
     padding-right: 1rem;
+}
+form{
+    padding-top: 1rem;
 }
 
 
@@ -326,6 +321,9 @@ iframe{
 
 /*JUGUETERIA*/
 /*LIBRERIA*/
+.galeria{
+    width: 100%;
+}
 .card{
     margin-bottom: 4rem;
     margin-left: 3rem;
@@ -355,6 +353,7 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+
 
 
 

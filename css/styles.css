@@ -20,6 +20,11 @@ h4{
     color: black;
     font-family: 'Roboto', sans-serif;
 }
+main{
+    margin-top: 10rem;
+}
+
+
 
 
 
@@ -60,9 +65,10 @@ h4{
     align-items: center;
     background-color: white;
     border-bottom: 1px solid rgb(242, 184, 216);
-    position:static;
-    top: 0;
-    width: 100vw;
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index: 99;
 }
 .logoHeader {
     padding-left: 4rem;

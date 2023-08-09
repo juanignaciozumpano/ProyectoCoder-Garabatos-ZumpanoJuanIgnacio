@@ -1,0 +1,368 @@
+/*HEADER*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(242, 184, 216);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.logoHeader {
+  padding-left: 4rem;
+  width: 300px;
+  height: 30%;
+}
+@media (max-width: 576px) {
+  .logoHeader {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  background-color: white;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.navbar {
+  background-color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/*FOOTER*/
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  flex-wrap: wrap;
+  padding-top: 8rem;
+  background: rgb(242, 184, 216);
+  background: -moz-linear-gradient(0deg, rgb(242, 184, 216) 0%, rgb(242, 184, 216) 78%, rgb(249, 230, 240) 93%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(0deg, rgb(242, 184, 216) 0%, rgb(242, 184, 216) 78%, rgb(249, 230, 240) 93%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, rgb(242, 184, 216) 0%, rgb(242, 184, 216) 78%, rgb(249, 230, 240) 93%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2b8d8",endColorstr="#ffffff",GradientType=1);
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.footer-nav li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.logoFooter {
+  height: 250px;
+  border-radius: 500px;
+}
+
+.redesFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.redesFooter div {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.profileCartFoot {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+.profileCartFoot div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.derechosReservados {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding-top: 0.5rem;
+}
+
+/*--INDEX HOME--*/
+.carousel-item img {
+  height: 50vw;
+  margin-bottom: 2rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+@media (max-width: 576px) {
+  .carousel-item img {
+    padding: 0 0;
+  }
+}
+
+.populares {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(242, 184, 216);
+}
+
+/*NOSOTROS*/
+.parrafo {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(242, 184, 216);
+}
+.parrafo:hover {
+  background-color: #de4c9d;
+  color: #6044c5;
+  font-size: 20px;
+}
+
+.roma {
+  display: flex;
+  padding-top: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+.roma div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .roma {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.imgStaff {
+  display: flex;
+  padding: 0.5rem;
+  width: 90%;
+  height: 500px;
+}
+
+.conoceMas {
+  font-family: "Roboto", sans-serif;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(242, 184, 216);
+  padding-bottom: 10rem;
+}
+
+.botonConoceMas {
+  margin-top: 20rem;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 50px;
+}
+
+/*CONTACTO*/
+.contactanos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-areas: "0 getintouch form";
+  background-color: rgb(242, 184, 216);
+  border-radius: 5%;
+}
+@media (max-width: 576px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0;
+    width: 60%;
+  }
+  .grid .formstyle {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+legend {
+  font-size: medium;
+}
+
+#form {
+  background-color: white;
+  grid-area: form;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 1rem;
+  align-items: center;
+}
+
+.submitContacto {
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(242, 184, 216);
+}
+.submitContacto:hover {
+  background-color: black;
+  color: white;
+}
+
+.mapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+iframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+}
+
+#getintouch {
+  grid-area: getintouch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  padding-right: 1rem;
+}
+
+form {
+  padding-top: 1rem;
+}
+
+/*JUGUETERIA*/
+/*LIBRERIA*/
+.galeria {
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+.submitCard {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(242, 184, 216);
+}
+.submitCard:hover {
+  background-color: black;
+  color: white;
+}
+
+.card-img-top {
+  width: 300px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*--GENERAL--*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  margin-top: 12rem;
+}
+
+.styleTitulos {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  margin-top: 4rem;
+}
+.styleTitulos:hover {
+  color: rgb(242, 184, 216);
+}
+
+.h {
+  width: 50%;
+  height: 6px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(240, 105, 179);
+}
+
+/*!!porcentaje es Absoluto y px es relativo!!!*/
+/*comentar*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+/*--GENERAL--*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: $clr-blk;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: $clr-blk;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    margin-top: 12rem;
+}
+.styleTitulos{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: nth($size, 7);
+    color: $clr-blk;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: 4rem;
+    &:hover{
+        color: $clr-ppl;
+    }
+}
+
+.h{
+    width: 50%;
+    height: nth($size, 1);
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: nth($size, 7);
+    margin-bottom: nth($size, 7);
+    background-color: $clr-sec;
+}
+/*!!porcentaje es Absoluto y px es relativo!!!*/
+/*comentar*/

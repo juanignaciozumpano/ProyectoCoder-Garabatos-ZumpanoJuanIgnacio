@@ -1,0 +1,76 @@
+/*CONTACTO*/
+.contactanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-areas: 
+    "0 getintouch form";
+    background-color: rgb(242, 184, 216); 
+    border-radius: 5%;
+    @media (max-width: 576px){
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            border-radius: 0;
+            width: 60%;
+        .formstyle{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+legend{
+    font-size: medium;
+}
+#form{
+    background-color: white;
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    padding: 1rem;
+    align-items: center;
+}
+.submitContacto {
+    margin-top: 1rem;
+    outline: none;
+    border:none;
+    border-radius: 15px;
+    background-color: rgb(242, 184, 216);
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+.mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding-bottom: 50px;
+}
+iframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+#getintouch{
+    grid-area: getintouch;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: white;
+    padding-right: 1rem;
+}
+form{
+    padding-top: 1rem;
+}

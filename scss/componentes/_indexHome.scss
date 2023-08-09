@@ -1,0 +1,19 @@
+/*--INDEX HOME--*/
+.carousel-item img{
+    height: 50vw;
+    margin-bottom: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    @media (max-width: 576px){
+            padding: 0 0;
+    }
+}
+
+.populares{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 184, 216);
+}

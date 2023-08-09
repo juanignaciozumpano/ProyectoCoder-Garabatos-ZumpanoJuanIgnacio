@@ -1,0 +1,35 @@
+/*JUGUETERIA*/
+/*LIBRERIA*/
+.galeria{
+    width: 100%;
+}
+.card{
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0;
+}
+.submitCard{
+    outline: none;
+    border:none;
+    border-radius: 15px;
+    background-color: rgb(242, 184, 216);
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+    
+}
+
+.card-img-top{
+    width: 300px;
+}
+.card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
